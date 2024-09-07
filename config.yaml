@@ -32,7 +32,6 @@ languages:
 outputs:
   home:
     - HTML
-    - RSS
     - JSON # necessary for search
 
 params:
@@ -44,7 +43,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: false
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
