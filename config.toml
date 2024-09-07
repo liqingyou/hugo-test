@@ -1,0 +1,57 @@
+baseURL = "http://example.org/"
+title = "游戏文学"
+paginate = 5
+theme = "PaperMod"
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+enableEmoji = true
+
+[mainsections]
+mainsections = ["posts", "wukong"]
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+[taxonomies]
+  [taxonomies.category]
+    name = "categories"
+  [taxonomies.tag]
+    name = "tags"
+  [taxonomies.series]
+    name = "series"
+
+[menu.main]
+[[menu.main]]
+name = "Archive"
+url = "archives"
+weight = 5
+
+[[menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
+
+[[menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 10
+
+[outputs]
+[outputs.home]
+home = ["HTML", "JSON"]
+
+[params]
+author = "佚名"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = false
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
