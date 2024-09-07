@@ -7,7 +7,6 @@ enableInlineShortcodes = true
 enableRobotsTXT = true
 enableEmoji = true
 
-[mainsections]
 mainsections = ["posts", "wukong"]
 
 [languages.en]
@@ -22,7 +21,6 @@ weight = 1
   [taxonomies.series]
     name = "series"
 
-[menu.main]
 [[menu.main]]
 name = "Archive"
 url = "archives"
