@@ -28,6 +28,24 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
+  zh:
+    languageName: "中文"
+    weight: 2
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10          
 
 outputs:
   home:
